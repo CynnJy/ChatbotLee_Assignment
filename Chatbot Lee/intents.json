@@ -1,0 +1,99 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": ["hi there", "hello","haroo","yaw","wassup", "hi", "hey", "holla", "hello"],
+            "responses": ["Hello! thanks for checking in.", "Hi there, how can I help you?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "good bye", "see you later"],
+            "responses": ["Have a good day, welcome back again.", "Bye bye."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "okay", "Thank you", "thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me", "wow", "great"],
+            "responses": ["Happy to help!", "Any time!", "You're welcome", "My pleasure."],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [""],
+            "responses": ["Sorry, I didn't understand you", "Please give me more info", "Not sure I understand that"],
+            "context": [""]
+        },
+        {
+            "tag": "name1",
+            "patterns": ["what's your name?", "who are you?"],
+            "responses": ["I'm Lee. Your weather information advisor"],
+            "context": [""]
+        },
+        {
+            "tag": "name",
+            "patterns": ["hi my name is ", "my name is ", "i am "],
+            "responses": ["Oooh great to meet you {n}. How may I assist you {n}", "Oh, I'll keep that in mind {n}"],
+            "context": [""]
+        },
+        {
+            "tag": "fav",
+            "patterns": ["I need a favour", "can you help me"],
+            "responses": ["Well, go ahead and name it I see whether I can be able to help"],
+            "context": [""]
+        },
+        {
+            "tag": "AI",
+            "patterns": ["what is AI?", "what is artificial intelligence"],
+            "responses": [" AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."],
+            "context": [""]
+        },
+        {
+            "tag": "lang",
+            "patterns": ["What language are you written in? "],
+            "responses": [" Python.", " I am written in Python."],
+            "context": [""]
+        },
+        {
+            "tag": "chatbot",
+            "patterns": ["what is a chatbot?", "what is chatbot"],
+            "responses": ["A chat robot is a program that attempts to simulate the conversation or 'chat' of a human being."],
+            "context": [""]
+        },
+        {
+            "tag": "programming",
+            "patterns": ["what is your favorite programming language"],
+            "responses": ["Python is the best language for creating chat robots.", " I quite enjoy programming in Python these days."],
+            "context": [""]
+        },
+        {
+            "tag": "who",
+            "patterns": ["Who are you?"],
+            "responses": ["I am just an artificial intelligence chat agent."],
+            "context": [""]
+        },
+        {
+            "tag": "bot1",
+            "patterns": ["Are you a bot?"],
+            "responses": ["Yes. I work and all my operations are based on the internet servers."],
+            "context": [""]
+        },
+        {
+            "tag": "do",
+            "patterns": ["what can you do for me", "what is your work", "what is your purpose", "how can you help me", "what can you help me do", "help", "help me"],
+            "responses": ["Hello! I offer services like: <br> - Provide monthly weather information for the cities in Malaysia. <br> - Suggest whether you should or shouldn't visit your desired city in your preferred month. <br><br> To know more, you can simply just asking me question like, <br>'Weather of [Name of the city] in [Month]?'</b> <br><br> For example:<br> <b>'Weather of Ipoh in January?'</b> <br><br> Tips: You can type <b>'list popular cities'</b> to see which city's weather information is available from me. <br><br> As simple as that! &#128521"],
+            "context": [""]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["what is the weather", "weather"],
+            "responses": ["Please state which city you would like to go and which month you prefer. <br> You can type 'list popular cities' to see which city's weather information is available from me."],
+            "context": [""]
+        },
+        {
+            "tag": "list",
+            "patterns": ["can you list all the popular cities in Malaysia", "list popular cities"],
+            "responses": ["The cities for which I provide weather information are listed as below: <br> - Kota Kinabalu <br> - Tawau <br> - Sandakan <br> - Kuching <br> - Miri <br> - Sibu <br> - Kota Bharu <br> - Kuantan <br> - Kuala Terengganu <br> - Kangar <br> - Alor Setar <br> - Georgetown <br> - Ipoh <br> - Shah Alam <br> - Kuala Lumpur <br> - Putrajaya <br> - Seremban <br> - Malacca <br> - Johor Bahru"],
+            "context": [""]
+        }
+    ]
+}
